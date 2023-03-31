@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cadastro do usuario</title>
+  <link rel="stylesheet" href="cadastro style.css">
+</head>
+
+<body>
+  <section class="area-cadastro">
+    <div class="cadastro">
+      <h1 class="titulo">CADASTRE-SE</h1>
+    
+    <form method="POST">
+        <input class="nome" type="text" id="nome" placeholder="nome" autofocus required>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome" autofocus required>
+        <input type="email" name="e-mail" id="e-mail" placeholder="e-mail" required>
+        <input type="tel" name="celular" placeholder="número" required>
+        <input type="password" name="senha" placeholder="senha" required>
+        <input type="password" name="senha" placeholder="confirmar senha" required>
+    
+      <div class="area-genero">
+        <label class="genero ">Gênero</label>
+        <select  id="gênero">
+            <option selected disabled value="">Selecione</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option >Prefiro não dizer</option>
+        </select>
+    </div>
+      <button class="botao" type="submit">Concluir</button>
+    </form>
+  </section>
+
+</body>
+  
+    <!--<div>   
+        <label class="genero">Qual seu gênero?</label>
+        
+        <label class="masculino">
+          <input type="radio" name="Masculino" value="Masculino" checked>Masculino
+        </label> 
+        
+        <label class="feminino">  
+          <input type="radio" name="Feminino" value="Feminino" >Feminino
+        </label> 
+            
+        <label class="outros">
+          <input type="radio" name="Outros" value="Outros">Outros
+        </label> 
+        
+        <label class="prefiro">
+          <input type="radio" name="Prefiro nao dizer" value="Prefiro não dizer" >Prefiro não dizer
+        </label>
+    </div> -->
+
+</html>
