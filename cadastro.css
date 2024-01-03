@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 
-
-
 * {
   margin: 0;
   padding: 0; 
@@ -12,26 +10,22 @@
 
 body{
   background: linear-gradient(
-  100deg, black, #221133);
+  100deg, black, #332149);
   font-family: "Righteous", cursive;
   overflow: hidden;
 }
-
 
 .titulo {
   font-family: "Righteous", cursive;
   color: #CBD0F7;
   padding: 15px
 }
-
-
-
+ 
 select{
   border: none;
   border-radius: 20px;
-  background: #CBD0F7
+  background: #CBD0F7;
 }
-
 
 .area-cadastro {
   display: flex;
@@ -46,7 +40,7 @@ select{
   align-items: center;
   background: #181920;
   border-radius: 15px;
-  width: 330px;
+  width: 500px;
   height: 580px;
   padding: 35px;
 }
@@ -77,34 +71,28 @@ select{
   border-radius: 5px;
   height: 45px;
   outline: none;
-  padding: 10px
+  padding: 10px;
 }
-
-
-
-
 
 .botao {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #5568FE;
+  font-family: "Righteous", cursive;
   width: auto;
   height: auto;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  font-family: "Righteous", cursive;
   font-weight: auto;
   font-size: 15px;
-  color: #2F23251;
+  color: #181920;
   margin-top: 24px;
   padding: 10px;
 }
 
 .botao:hover {
   background-color: rgba(236, 214, 196, 0.53);
+  font-family: "Righteous", cursive;
 }
-
-
-
