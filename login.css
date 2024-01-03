@@ -29,8 +29,8 @@ body{
   align-items: center;
   background: #181920;
   border-radius: 15px;
-  width: 300px;
-  height: 330px;
+  width: 350px;
+  height: 360px;
   padding: 35px;
 }
 
@@ -68,13 +68,14 @@ form [type="submit"]{
   background-color: #5568FE;
   font-size: 17px;
   cursor: pointer;
+  font-family: "Righteous", cursive;
 }
 
 p{
   color: #CBD0F7;
+  margin-top: 20px;
 }  
 
 a{
   color: #5568FE;
 }
-
