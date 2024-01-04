@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cadastro do usuario</title>
+  <link rel="stylesheet" href="cadastro.css">
+  <link rel="stylesheet" href="npm i bootstrap@5.3.2">
+</head>
+
+<body>
+  <section class="area-cadastro">
+    <div class="cadastro">
+      <h1 class="titulo">CADASTRE-SE</h1>
+
+    <form method="POST">
+        <input class="nome" type="text" id="nome" placeholder="nome" autofocus required>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome" autofocus required>
+        <input type="email" name="e-mail" id="e-mail" placeholder="e-mail" autofocus required>
+        <input type="tel" name="celular" placeholder="número"  autofocus required>
+        <input type="password" name="senha" placeholder="senha"  autofocus required>
+        <input type="password" name="senha" placeholder="confirmar senha"  autofocus required>
+
+      <div class="area-genero">
+        <label class="genero ">Gênero</label>
+        <select id="gênero">
+            <option selected disabled value="">Selecione</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option >Prefiro não dizer</option>
+        </select>
+    </div>
+      <button class="botao" type="submit">Concluir</button>
+    </form>
+  </section>
+
+</body>
+
+</html>
