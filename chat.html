@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Ocab</title>
+    <link rel="stylesheet" href="C:\Users\Paulo Daniel\Documents\Projeto PD\comunidade\chat.css">
+</head>
+<body>
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="pedro-selector">Pedro</button>
+        <button class="button person-selector-button" id="paulo-selector">Paulo</button>
+    </div>
+    <div class="chat-container">
+        <h2 class="chat-header">Pedro está conversando...</h2>
+
+        <div class="chat-messages">
+            <div class="message blue-bg">
+                <div class="message-sender">Pedro</div>
+                <div class="message-text">Olá Paulo, tudo bem? Leu algum livro hoje?</div>
+                <div class="message-timestamp">18:30</div>
+            </div>
+    
+            <div class="message gray-bg">
+                <div class="message-sender">Paulo</div>
+                <div class="message-text">Tudo sim Pedro. Hoje eu li um livro chamado Duna.</div>
+                <div class="message-timestamp">18:35</div>
+            </div>
+        </div>
+
+        <form class="chat-input-form">
+            <input type="text" class="chat-input" required placeholder="Digite algo..." />
+            <button type="submit" class="button send-button">Enviar</button>
+        </form>
+        <button class="button clear-chat-button">Limpar chat</button>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>
