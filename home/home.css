@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Righteous, cursive;
+    text-decoration: none;
+}
+body {
+    background: linear-gradient(
+    100deg, black, #332149);
+    font-family: "Righteous", cursive;
+    overflow: auto;
+}
+
+#pesquisar {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+    gap: 10px;
+}
+
+.pesquisar-botao{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+    color: #232f3e;
+}
+
+#livros {
+    margin-top: 30px;
+    background-color: #f8f8f8; /* Cor de fundo da seção de destaques */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /
+}
+
+#livros h2 {
+    text-align: center;
+    color: #333; /* Cor do texto do título */
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento inferior abaixo do título */
+}
+
+#livros .book {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+#livros .book img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+#livros .book-details {
+    text-align: center;
+}
+
+
+nav {
+	padding: 5px;
+    
+}
+
+nav ul {
+
+	list-style: none;
+	margin-top: 15px;
+    
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: WHITE;
+	text-decoration: none; 
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    gap: 20px;
+}
+.footerLinks a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-family: "Rigtheous", cursive;
+}
+  
+.imagem-cabecalho {
+    width: 50px;
+    right: 10px;
+    border: none;
+    border-radius: 50px;
+}
+  
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+  
+.cabecalho-item {
+    font-family: "Sarala", sans-serif;
+    color: #FFF2E7;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+  
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.conteudo-principal-escrito {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   color:#221133;
+}
+  
+.conteudo-principal-escrito-titulo {
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.categorias{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    gap: 30px;
+    font-family: "Righteous", cursive;
+    
+
+}
+
+.spacer {
+    height: 25px; /* Altura desejada para o espaço vazio */
+}
+
+
+.setinha {
+    padding: 20px;
+    position: relative; /* Necessário para posicionar a seta corretamente */
+    overflow-x: auto; /* Permite rolagem horizontal */
+}
+
+
+.scroll-setinha { 
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 24px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
