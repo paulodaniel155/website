@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background: linear-gradient(
+  100deg, black, #332149);
+  font-family: "Righteous", cursive;
+  overflow: hidden;
+}
+
+.titulo {
+  font-family: "Righteous", cursive;
+  color: #CBD0F7;
+  padding: 15px
+}
+ 
+select{
+  border: none;
+  border-radius: 20px;
+  background: #CBD0F7;
+}
+
+.area-cadastro {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #181920;
+  border-radius: 15px;
+  width: 500px;
+  height: 580px;
+  padding: 35px;
+}
+
+.cadastro form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.cadastro input {
+  margin-top: 10px;
+  background: #252A34;
+  padding-left: 8px;
+  color: #CBD0F7;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  outline: none;
+}
+
+.area-genero {
+  margin-top: 10px;
+  background: #252A34;
+  padding-left: 8px;
+  color: #CBD0F7;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  outline: none;
+  padding: 10px;
+}
+
+.botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5568FE;
+  font-family: "Righteous", cursive;
+  width: auto;
+  height: auto;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: auto;
+  font-size: 15px;
+  color: #181920;
+  margin-top: 24px;
+  padding: 10px;
+}
+
+.botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+  font-family: "Righteous", cursive;
+}
