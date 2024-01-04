@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>OCAB</title>
+    <link rel="stylesheet" href="npm i bootstrap@5.3.2">
+
+    <link rel="icon" href="logo.png">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="imagem-cabecalho" src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\logo.png" alt="logo">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-item"> <a href="C:\Users\Paulo Daniel\Documents\Projeto PD\comunidade\chat.html">Comunidade OCAB</a></a>
+        </nav>
+        <section class ="categorias" >   <!--categorias, (possivel javascript)-->
+            <div  class="categorias">
+                <ul>Comédia</ul>
+                <ul>Ação</ul>
+                <ul>Suspense</ul>
+                <ul>Romance</ul>
+                <ul>Terror</ul>
+                <ul>Drama</ul>
+    
+            </div>
+        </section>
+    </header>
+    <main class="conteudo"><!--pagina principal-->
+        <section class="conteudo-principal"><!--secao-->
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">OCAB</h1>
+                <h2 style="color: white;" class="conteudo-principal-escrito-Subtitulo">Leia seus livros de uma maneira mais divertida!</h2>
+            </div>
+        </section>
+    </main>
+    <nav>
+        <div align="right">
+            <input type="text" id="pesquisar" placeholder="Pesquisar...">
+            <button onclick="search()" class="pesquisar-botao">Buscar</button>
+        </div>
+        <ul align = "center">              <!--opções do site-->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="favoritos.html">Favoritos</a></li>
+            <li><a href="C:\Users\Paulo Daniel\Documents\Projeto PD\perfil\pf.html">Perfil</a></li>
+        </ul>
+    </nav>
+        
+    <main class="setinha">
+        <section align="center" id="livros">
+            <h2>Destaques</h2>
+            <!--modelo padrão para adcionar mais livro, vai de div em div-->
+            <div class="book">
+                <a href="https://www.amazon.com.br/Harry-Potter-C%C3%A2mara-Secreta-Rowling/dp/8532530796/ref=asc_df_8532530796/?tag=googleshopp00-20&linkCode=df0&hvadid=379793566310&hvpos=&hvnetw=g&hvrand=11008531702484429749&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101468&hvtargid=pla-395340058270&psc=1&mcid=a49b395360cc3989bcc853995a8b7627" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\harry.jpeg" alt="Destaque 1">
+                </a>
+                <div class="book-details">
+                    <h3>J. K. Rowling</h3>
+                </div>
+            </div>
+
+            <div class="book">
+                <a href="https://www.amazon.com.br/Guerra-dos-Tronos-Cr%C3%B4nicas-Gelo/dp/8556510787/ref=asc_df_8556510787/?tag=googleshopp00-20&linkCode=df0&hvadid=379791987062&hvpos=&hvnetw=g&hvrand=5216483598434311360&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101468&hvtargid=pla-786135651297&psc=1" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\game.jpeg" alt="Destaque 2">
+                </a>
+                <div class="book-details">
+                    <h3>George R. R. Martin</h3>
+                </div>
+            </div>
+
+            <div class="book">
+                <a href="https://www.amazon.com.br/coisa-Stephen-King/dp/8560280944/ref=sr_1_2?crid=3IEMQNYAMCD68&keywords=stephen+king&qid=1704328262&s=books&sprefix=ste%2Cstripbooks%2C188&sr=1-2" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\it.jpeg" alt="Destaque 3">
+                </a>
+                <div class="book-details">
+                    <h3>Stephen King </h3>
+                </div>
+            </div>
+            
+            <div class="book">
+                <a href="https://www.amazon.com.br/Pequeno-Pr%C3%ADncipe-Original-Tradu%C3%A7%C3%A3o-aquarelas/dp/8595081514/ref=sr_1_2?crid=25AUM7735JXRJ&keywords=o+pequeno+principe&qid=1704328281&s=books&sprefix=pequeno%2Cstripbooks%2C175&sr=1-2" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\pequeno.jpeg" alt="Destaque 4">
+                </a>
+                <div class="book-details">
+                    <h3>Antoine de Saint-Exupéry</h3>
+                </div>
+            </div>
+
+            <div class="book">
+                <a href="https://www.amazon.com.br/Biblioteca-Meia-Noite-Matt-Haig/dp/6558380544/ref=sr_1_1?crid=2M4NQCQFJ2WFO&keywords=a+biblioteca+da+meia+noite&qid=1704328308&s=books&sprefix=a+biblioteca%2Cstripbooks%2C167&sr=1-1" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\estra.jpeg" alt="Destaque 5">
+                </a>
+                <div class="book-details">
+                    <h3>Matt Haig</h3>
+                </div>
+            </div>
+
+            <div class="book">
+                <a href="https://www.amazon.com.br/livro-secreto-do-escritor/dp/6550472539/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1663FV12SW3X0&keywords=o+livro+secreto+do+escritor&qid=1704328345&s=books&sprefix=o+livro+secreto+do+escritor%2Cstripbooks%2C167&sr=1-1" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\economia.jpeg" alt="Destaque 6">
+                </a>
+                <div class="book-details">
+                    <h3>Lilian Cardoso</h3>
+                </div>
+            </div>
+            
+            <div class="book">
+                <a href="https://www.amazon.com.br/alquimista-Paulo-Coelho/dp/8584390677" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\alquimia.jpeg" alt="Destaque 7">
+                </a>
+                <div class="book-details">
+                    <h3>Paulo Coelho</h3>
+                </div>
+            </div>
+         
+            <div class="book">
+                <a href="https://www.amazon.com.br/Jogo-do-Amor-%C3%93dio/dp/855030266X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=7GYTWKSENYY1&keywords=o+jogo+de+amor+odio&qid=1704328391&s=books&sprefix=o+jogo+do+amor+odio%2Cstripbooks%2C165&sr=1-1" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\images.jpeg" alt="Destaque 8">
+                </a>
+                <div class="book-details">
+                    <h3>Sally Thorne</h3>
+                </div>
+            </div>
+           
+            <div class="book">
+                <a href="https://www.amazon.com.br/vantagens-ser-invis%C3%ADvel-Stephen-Chbosky/dp/6555320699/ref=sr_1_1?crid=1GQZQMXJB9QWK&keywords=as+vantagens+de+ser+invisivel&qid=1704328417&s=books&sprefix=as+vanta%2Cstripbooks%2C165&sr=1-1" target="_blank">
+                    <img src="C:\Users\Paulo Daniel\Documents\Projeto PD\telaHome\img\shopping.webp" alt="Destaque 9">
+                </a>
+                <div class="book-details">
+                    <h3>Stephen Chbosky</h3>
+                </div>
+            </div>
+
+            <div class="scroll-setinha">&rarr;</div> <!-- a setinha para puxar mais livros pela lateral (não funciona)-->
+            <!-- Adicione mais livros destacados conforme necessário -->
+        </section>
+    </main>
+
+    <footer>       <!-- referencias-->
+        <div class="footerLinks">
+            <a href="#">Termos de Serviço</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Contato</a>
+            <p>&copy; 2024.</p>
+        </div>
+    </footer>
+
+    <div class="spacer"></div>
+    
+    <script src="script.js"></script>
+   
+
+</body>
+</html>
