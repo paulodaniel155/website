@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background:  linear-gradient(
+  100deg, black, #221133);;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  font-family: "Rigtheous", cursive;
+}
+
+.imagem-cabecalho {
+  width: 50px;
+  right: 10px;
+  border: none;
+  border-radius: 50px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho-item {
+  font-family: "Sarala", sans-serif;
+  color: #FFF2E7;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+a{
+     color: #FFF2E7;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conteudo-principal-escrito {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ color:#221133;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFF2E7;
+}
+
+h2{
+   color: white 
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Sarala", sans-serif;
+  font-weight: 00;
+  font-size: 24px;
+  color: white;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: #221133;;
+  width: 150px;
+  height: 40px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: "Rigtheous", cursive;
+  font-weight: 200;
+  font-size: 15px;
+  color: #221133;;
+  margin-top: 24px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.imagem-principal {
+  width: 1500px;
+  right: 100px;
+  border: none;
+  border-radius: 20px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.subtitulo-secundario {
+ border-top: 0.4px solid #FFF2E7; 
+ padding-top: 48px;
+ font-family: "Righteous", cursive;
+ font-weight: 400;
+ font-size: 24px;
+ color: #FFF2E7;
+ margin-bottom: 16px;
+}
+
+.paragrafo {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ECD6C4;
+}
